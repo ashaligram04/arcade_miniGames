@@ -19,7 +19,7 @@ void open_cell();    // opens a cell
 void game();
 void print_table(char); // prints the game table
 
-char table[10][10];                // the game table visible ot the player
+char table[10][10];                // the game table visible to the player
 char table_mine_positions[10][10]; // table with the positions of the mines and the number of each cell
 char symbol;                       // the input symbol, it can be 'o' or f'
 int flag_counter = 0;
